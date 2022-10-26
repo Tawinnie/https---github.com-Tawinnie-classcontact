@@ -36,6 +36,6 @@ if ($result->num_rows > 0) {
         $phone = $row["pphoned"];
         echo "Name: " .  $name . "- Phone: " . $phone . "<br>";
     }
-} else {
+} else { 
     echo "0 results";
 }
